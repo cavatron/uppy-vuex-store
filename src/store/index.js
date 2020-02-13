@@ -1,17 +1,15 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { STATE_UPDATE } from '../uppy';
+import { uppyMutation } from '../uppy';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    uppy: null
+    uppy: {}
   },
   mutations: {
-    [STATE_UPDATE](state, payload) {
-      state.uppy = Object.assign({}, state.uppy, payload);
-    }
+    ...uppyMutation
   },
   actions: {},
   modules: {}
