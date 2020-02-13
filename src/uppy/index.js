@@ -6,7 +6,7 @@ export const uppyMutation = {
   }
 };
 
-export default class VuexStore {
+export default class UppyVuexStore {
   constructor(options) {
     this.store = options.store;
   }
