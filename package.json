@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@uppy/core": "^1.8.1",
+    "@uppy/dashboard": "^1.6.1",
     "core-js": "^3.6.4",
+    "cuid": "^2.1.8",
     "vue": "^2.6.11",
     "vuex": "^3.1.2"
   },
