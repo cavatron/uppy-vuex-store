@@ -4,11 +4,11 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: 'dist/uppy-vuex-store.js',
+      file: 'lib/uppy-vuex-store.js',
       format: 'es'
     },
     {
-      file: 'dist/uppy-vuex-store.min.js',
+      file: 'lib/uppy-vuex-store.min.js',
       format: 'es',
       plugins: [terser()]
     }

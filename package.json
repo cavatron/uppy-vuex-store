@@ -1,7 +1,10 @@
 {
   "name": "uppy-vuex-store",
   "version": "1.0.0",
-  "private": true,
+  "main": "lib/uppy-vuex-store.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
