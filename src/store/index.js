@@ -1,15 +1,16 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { uppyMutation } from '../uppy';
+import { mutation } from '..';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
+  strict: process.env.NODE_ENV !== 'production',
   state: {
     uppy: {}
   },
   mutations: {
-    ...uppyMutation
+    ...mutation
   },
   actions: {},
   modules: {}

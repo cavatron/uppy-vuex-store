@@ -1,4 +1,4 @@
-# uppy-store-vuex
+# uppy-vuex-store
 
 ## Project setup
 ```

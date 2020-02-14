@@ -1,18 +1,19 @@
 {
-  "name": "uppy-store-vuex",
-  "version": "0.1.0",
+  "name": "uppy-vuex-store",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "rollup -c",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@uppy/core": "^1.8.1",
-    "@uppy/dashboard": "^1.6.1",
+    "@uppy/drag-drop": "^1.4.4",
     "core-js": "^3.6.4",
-    "cuid": "^2.1.8",
+    "shortid": "^2.2.15",
     "vue": "^2.6.11",
     "vuex": "^3.1.2"
   },
@@ -30,6 +31,8 @@
     "eslint-plugin-vue": "^6.1.2",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
+    "rollup": "^1.31.0",
+    "rollup-plugin-terser": "^5.2.0",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
